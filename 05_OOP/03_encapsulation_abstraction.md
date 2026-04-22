@@ -63,11 +63,39 @@ print(circle.area()) # 78.5
 2. **What is Name Mangling?** If you name `__balance` inside `BankAccount`, python renames it internally to `_BankAccount__balance`.
 
 ## Practice Questions
+
 **Easy:**
 1. Try to access the `__balance` variable of the BankAccount class directly using Name Mangling trick mentioned in Interview Notes.
+2. Create class with private `__name` attribute and public getter method.
+3. Define class with protected `_age` attribute, access from subclass.
+4. Create class with private `__password`, add setter with validation (min 8 chars).
+5. Implement class with read-only property using @property decorator.
+6. Create class where `__init__` sets private attributes, display via method.
+7. Make class with private method `__internal_calc()`, call from public method.
+8. Create class demonstrating single underscore convention for internal use.
+9. Implement simple data hiding: private attribute with get/set methods.
+10. Create class with property that calculates value from other attributes.
 
 **Medium:**
 1. Create a `Student` class with private `__marks`. Write a setter function that ensures someone cannot set marks > 100.
+2. Implement `Employee` class with private `__salary`, add bonus via method.
+3. Create abstract class `Database` with abstract connect(), query(), close() methods.
+4. Design `Rectangle` class with private length/breadth, validate positive values.
+5. Implement `CreditCard` with hidden CVV, show only last 4 digits.
+6. Create `Temperature` class with property that converts between C/F automatically.
+7. Build `UserProfile` with private email, public method to send notification.
+8. Implement `Stack` with private list, public push/pop/peek operations.
+9. Create abstract `ReportGenerator` with generate() method, implement PDF/Excel versions.
+10. Design `ConfigManager` with private config dict, getter with default fallback.
 
 **Hard:**
 1. Create an abstract class `Vehicle` with an abstract method `fuel_efficiency()`. Implement child classes `Bike` and `Truck` returning their specific efficiencies.
+2. Implement full encapsulation: all attributes private, properties with validators.
+3. Create abstract base class `Shape3D` with volume(), surface_area() abstract methods.
+4. Design thread-safe counter using encapsulation and locks.
+5. Implement immutable class using private attributes and no setters.
+6. Create descriptor class for type-checking private attributes.
+7. Build ORM field abstraction: BaseField → StringField, IntegerField with validation.
+8. Implement strategy pattern with abstract Strategy class and concrete implementations.
+9. Create plugin architecture with abstract Plugin base class and lifecycle hooks.
+10. Design dependency injection container with private registry and public resolve().

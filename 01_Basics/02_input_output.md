@@ -50,11 +50,39 @@ print(f"I live in {city}.")
    - `print("A", end=' ')` prevents a new line after printing.
 
 ## Practice Questions
+
 **Easy:**
 1. Take the user's first name and last name as input and print them together.
+2. Ask user for their favorite color and print "Your favorite color is [color]".
+3. Take a number as input and print its square using multiplication.
+4. Ask user for two numbers and print which one is larger.
+5. Take input of your city and country, then print "I live in [city], [country]".
+6. Ask user for their birth year and calculate their age (assuming current year is 2024).
+7. Take a string input and print it in uppercase using `.upper()` method.
+8. Ask user for a number and print whether it's positive, negative, or zero.
+9. Take three subject marks as input and calculate total marks.
+10. Ask user for their name and print it 5 times using string multiplication.
 
 **Medium:**
 1. Write a program to take two numbers as input and print their sum, difference, and product.
+2. Take temperature in Celsius as input and convert to Fahrenheit. Print with 2 decimal places.
+3. Ask user for radius of circle and calculate area (πr²) and circumference (2πr).
+4. Take input of length and breadth of rectangle, calculate area and perimeter.
+5. Create a simple calculator: Take two numbers and an operator (+, -, *, /) as input.
+6. Take user's salary as input and calculate HRA (10%), DA (5%), and net salary.
+7. Ask for distance in km and convert to meters, centimeters, and millimeters.
+8. Take input of principal, rate, and time. Calculate simple interest and total amount.
+9. Create a marksheet program: Take 5 subject marks, calculate percentage and grade.
+10. Take a 4-digit number as input and find sum of its digits.
 
 **Hard:**
 1. Format a print statement using `f-strings` to display: "My name is [Name], I am [Age] years old, and my salary is [Salary] LPA." padded with leading zeros for salary.
+2. Create a currency converter: Take amount in INR and convert to USD, EUR, GBP (use fixed rates).
+3. Take a number as input and reverse it (e.g., 1234 → 4321) without using string conversion.
+4. Create a compound interest calculator with user input for P, R, T and compounding frequency.
+5. Take input of base and exponent, calculate power without using `**` operator or `pow()`.
+6. Create a program that takes time in seconds and converts to HH:MM:SS format.
+7. Take 3 sides of triangle as input, check if it's valid triangle and calculate area using Heron's formula.
+8. Create a GST calculator: Take price and GST rate, calculate final price with CGST and SGST.
+9. Take input of speed in km/h and convert to m/s. Also calculate time to cover 100km.
+10. Create a BMI calculator: Take weight (kg) and height (m), calculate BMI and categorize health status.
