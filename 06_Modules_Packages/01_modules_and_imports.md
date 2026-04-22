@@ -51,11 +51,39 @@ print(m.add(5, 10))
 2. What does `__init__.py` do? It treats the directory as a package and allows you to run initialization code.
 
 ## Practice Questions
+
 **Easy:**
 1. Import Python's built-in `math` module and use it to print the square root of 16.
+2. Import datetime module and print current date and time.
+3. Use `from random import randint` to generate random number between 1-100.
+4. Import specific function from module: `from math import pi, sqrt`.
+5. Create alias while importing: `import numpy as np` (practice with any module).
+6. Import all functions from a module using `*` (not recommended but practice).
+7. Use `sys` module to get Python version and command line arguments.
+8. Import `os` module and print current working directory.
+9. Use `collections` module to create Counter from list.
+10. Import `json` module and parse a JSON string to dictionary.
 
 **Medium:**
 1. Create a file `greetings.py` with a function `say_hello()`. Create a second file `main.py` and import that function from the first file.
+2. Create package structure: mypkg/__init__.py, mypkg/module1.py, mypkg/module2.py.
+3. Implement relative imports within a package (from .module1 import func).
+4. Create custom module with multiple functions, import selectively in another file.
+5. Use `if __name__ == "__main__":` to make module executable and importable.
+6. Create package with __all__ to control what gets exported with `from pkg import *`.
+7. Handle circular import issue by restructuring code or using local imports.
+8. Create utility module with helper functions, use across multiple project files.
+9. Import class from one module and inherit in another module.
+10. Create subpackage structure: pkg/subpkg/module.py with proper imports.
 
 **Hard:**
 1. Explain practically how `if __name__ == "__main__":` prevents code from executing during an import by making two files and demonstrating it.
+2. Design large-scale package structure for web application with blueprints.
+3. Implement lazy loading of modules using importlib for performance optimization.
+4. Create dynamic imports based on configuration using importlib.import_module().
+5. Build plugin system that discovers and loads modules from directory automatically.
+6. Handle version conflicts when importing same package with different versions.
+7. Create namespace package (PEP 420) without __init__.py files.
+8. Implement hot-reloading: reload modified modules without restarting application.
+9. Design monorepo structure with shared packages and proper import paths.
+10. Create distribution package with setup.py, publish to PyPI (theoretical + structure).

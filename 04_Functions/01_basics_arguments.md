@@ -59,11 +59,39 @@ print_hobbies("Cricket", "Music", "Coding")
 2. Interviwer might ask difference between `*args` and `**kwargs`. `*args` receives a tuple of positional arguments, `**kwargs` receives a dictionary of keyword arguments.
 
 ## Practice Questions
+
 **Easy:**
 1. Write a function `square(number)` that returns the square of the number.
+2. Create a function that greets user with "Hello, [name]!" using parameter.
+3. Write function to add two numbers and return result.
+4. Create function that checks if number is even, returns True/False.
+5. Write function to calculate area of rectangle (length * breadth).
+6. Create function that returns first element of a list.
+7. Write function to convert Celsius to Fahrenheit.
+8. Create function that concatenates two strings with space between.
+9. Write function to find absolute value without using abs().
+10. Create function that returns length of string without len().
 
 **Medium:**
 1. Write a function that takes a list of numbers as an argument and returns the maximum number from the list.
+2. Create function with default parameter: greet(name, greeting="Hello").
+3. Write function that accepts variable arguments (*args) and returns their sum.
+4. Create function that takes dictionary (**kwargs) and prints key-value pairs.
+5. Write function to check if string is palindrome using return statement.
+6. Create function that filters even numbers from list and returns new list.
+7. Write function with keyword-only arguments after *.
+8. Create recursive function to calculate factorial of number.
+9. Write function that swaps two variables and returns both values.
+10. Create function that finds common elements between two lists.
 
 **Hard:**
 1. Write a generic function `make_profile(**kwargs)` that accepts varying amount of keywords (name, age, city) and prints them out nicely formatted.
+2. Implement function decorator that logs function calls with timestamps.
+3. Create function with mutable default argument trap demonstration.
+4. Write higher-order function that takes function as parameter and applies to list.
+5. Implement currying: function that returns another function.
+6. Create function with *args and **kwargs combined for flexible API.
+7. Write function that memoizes results of expensive calculations.
+8. Implement function composition: compose(f, g) returns f(g(x)).
+9. Create generator function that yields Fibonacci sequence infinitely.
+10. Write function with type hints and docstring following PEP 257 standards.

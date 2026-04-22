@@ -49,11 +49,39 @@ print(x == 5)            # True
 2. **Short-Circuiting**: In logical `and`, if the first condition is `False`, Python doesn't check the second condition. In logical `or`, if the first is `True`, it doesn't check the second.
 
 ## Practice Questions
+
 **Easy:**
 1. Write a program to check if a number is even or odd using the `%` operator.
+2. Take two numbers as input and perform all arithmetic operations on them.
+3. Check if a number is divisible by 5 using modulo operator.
+4. Calculate square of a number using `**` operator.
+5. Use floor division `//` to find how many times 3 fits in 20.
+6. Check if a number is positive using comparison operator.
+7. Use `+=` operator to add 10 to an existing variable.
+8. Check if two numbers are equal using `==` operator.
+9. Use logical `not` to reverse a boolean value.
+10. Find remainder when 100 is divided by 7 using modulo.
 
 **Medium:**
 1. Given a 3-digit number, use `//` and `%` to extract and print its last digit.
+2. Check if a year is leap year using logical operators (divisible by 4 but not 100, unless divisible by 400).
+3. Take temperature in Celsius, convert to Fahrenheit using formula with proper operators.
+4. Use compound assignment operators to update a variable through multiple operations.
+5. Check if a number lies between 10 and 100 using comparison and logical operators.
+6. Extract tens digit from a 2-digit number using `/` and `%`.
+7. Calculate area of circle using `**` for radius squared.
+8. Use bitwise operators to check if a number is odd (hint: `& 1`).
+9. Swap two numbers using arithmetic operators without third variable.
+10. Check divisibility by both 3 and 5 using logical `and`.
 
 **Hard:**
 1. Write a logical expression that evaluates to `True` if a variable `year` is a leap year.
+2. Create a calculator that takes operator as input (+, -, *, /, %, //, **) and performs operation.
+3. Check if three numbers can form a triangle using comparison operators.
+4. Implement XOR swap algorithm for two numbers without using temporary variable.
+5. Find middle digit of 3-digit number using only arithmetic operators.
+6. Check if a number is palindrome (same when reversed) using arithmetic operations only.
+7. Calculate power of number without using `**` or `pow()`, using loop and multiplication.
+8. Use bitwise operators to multiply a number by 2 (hint: left shift).
+9. Check if exactly one of three conditions is true using logical operators.
+10. Implement division without using `/` operator, using repeated subtraction.

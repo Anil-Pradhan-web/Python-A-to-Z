@@ -59,11 +59,39 @@ dog2.bark()      # Output: Max is barking! Woof!
 2. `self` is not a keyword. You can name it anything (like `this`), but `self` is a universally accepted convention.
 
 ## Practice Questions
+
 **Easy:**
 1. Create a `Student` class with attributes `name` and `age`. Create an object and print its name.
+2. Define a class `Car` with brand and model attributes, create two objects.
+3. Create class `Rectangle` with length and breadth, add method to calculate area.
+4. Make class `Dog` with name attribute and bark() method that prints "Woof!".
+5. Create class `Book` with title, author, and pages attributes.
+6. Define class `Person` with __init__ that sets name and email.
+7. Create class `Calculator` with add() method taking two parameters.
+8. Make class `Circle` with radius attribute and circumference() method.
+9. Create class `Employee` with id, name, salary attributes and display_info() method.
+10. Define class `Phone` with brand, price attributes and call() method.
 
 **Medium:**
 1. Add a method `is_adult()` in the Student class that returns True if age >= 18, else False.
+2. Create class `BankAccount` with balance, deposit(), withdraw() methods with validation.
+3. Implement class `ComplexNumber` with real, imaginary parts and add/multiply methods.
+4. Create class `Date` with day, month, year and method to check valid date.
+5. Make class `ShoppingCart` with items list, add_item(), remove_item(), total() methods.
+6. Create class `Fraction` with numerator, denominator and simplify() method using GCD.
+7. Implement class `Vector2D` with x, y coordinates and dot product method.
+8. Create class `Temperature` with celsius attribute and convert_to_fahrenheit() method.
+9. Make class `Library` with books list, add_book(), search_book(), display_books() methods.
+10. Create class `Counter` with count attribute and increment(), decrement(), reset() methods.
 
 **Hard:**
 1. Create a `BankAccount` class with `balance`. Add methods to `deposit(amount)` and `withdraw(amount)`. Ensure balance doesn't go below zero.
+2. Implement class `Stack` using list with push(), pop(), peek(), is_empty() methods.
+3. Create class `Queue` with enqueue(), dequeue(), front(), rear() operations.
+4. Make class `Matrix` with 2D list, implement add() and multiply() for matrices.
+5. Implement class `LinkedList` with Node inner class, append() and display() methods.
+6. Create class `Polynomial` with coefficients dict, add() and evaluate(x) methods.
+7. Design class `DeckOfCards` with shuffle(), deal_card(), cards_remaining() methods.
+8. Implement class `HashTable` with insert(), search(), delete() using chaining.
+9. Create class `BinaryTree` with insert(), inorder_traversal(), search() methods.
+10. Design class `LRUCache` with get() and put() operations using OrderedDict.

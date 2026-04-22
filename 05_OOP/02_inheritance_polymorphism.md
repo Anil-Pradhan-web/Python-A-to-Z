@@ -67,11 +67,39 @@ pet2.make_sound() # Bruno says Bark!
 2. Interviewers might ask about the **MRO (Method Resolution Order)**. It's the order in which base classes are searched when executing a method. You can check it using `ClassName.__mro__`.
 
 ## Practice Questions
+
 **Easy:**
 1. Create a `Vehicle` parent class with a `start_engine()` method. Create a `Car` child class that inherits from it.
+2. Define class `Animal` with sound attribute, create `Dog` and `Cat` subclasses.
+3. Create base class `Shape` with area() method, derive `Circle` and `Rectangle`.
+4. Make parent class `Person` with name, age; child class `Student` adds grade.
+5. Create class `Bird` with fly() method, subclass `Penguin` overrides fly().
+6. Define `Appliance` class, inherit `WashingMachine` with wash_cycle() method.
+7. Create `Fruit` base class, derive `Apple` and `Banana` with color attribute.
+8. Make `User` class, inherit `Admin` with additional permissions list.
+9. Create `Instrument` class, subclass `Guitar` with strings_count attribute.
+10. Define `Food` class, derive `Pizza` with toppings list attribute.
 
 **Medium:**
 1. Override the `start_engine()` method in the `Car` class to print "Car uses a push button start".
+2. Implement multiple inheritance: `AmphibiousCar` inherits from both `Car` and `Boat`.
+3. Create class hierarchy: `Person` → `Employee` → `Manager` with increasing attributes.
+4. Use super() to call parent __init__ and add child-specific initialization.
+5. Implement method overriding for `display_info()` in 3-level inheritance chain.
+6. Create abstract-like base class `Payment` with pay() method, implement in `Card`, `UPI`, `Cash`.
+7. Design `Device` → `SmartDevice` → `Smartphone` with cumulative methods.
+8. Implement polymorphism: list of different shapes, call area() on each.
+9. Create mixin class `Loggable` with log() method, combine with other classes.
+10. Use isinstance() and issubclass() to check inheritance relationships.
 
 **Hard:**
 1. Create an `Employee` base class and two child classes `Manager` and `Developer`. Add a polymorphic method `calculate_salary()` that works differently for each role.
+2. Implement diamond inheritance problem and demonstrate MRO using __mro__ attribute.
+3. Create deep inheritance tree (4+ levels) with proper super() chaining.
+4. Design plugin system using inheritance: BasePlugin → various specific plugins.
+5. Implement strategy pattern using inheritance for different sorting algorithms.
+6. Create framework with template method pattern: base class defines skeleton, subclasses fill details.
+7. Build ORM-like structure: BaseModel → User, Post, Comment with CRUD operations.
+8. Implement visitor pattern using double dispatch with inheritance.
+9. Create factory pattern: Factory base class with concrete factories for products.
+10. Design event system: Event base class with specialized events (ClickEvent, KeyEvent, etc.).

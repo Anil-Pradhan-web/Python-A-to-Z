@@ -68,11 +68,39 @@ print("Redacted:", redacted)
 2. RegEx is highly sought after in Data Science and Backend tasks for validation and scraping.
 
 ## Practice Questions
+
 **Easy:**
 1. Write a regex to extract all uppercase letters from a string.
+2. Find all digits in a string using \d pattern.
+3. Extract all words from a sentence using \w+ pattern.
+4. Check if string starts with specific word using ^ anchor.
+5. Find all email addresses in text using basic email pattern.
+6. Replace all whitespace with underscore using re.sub().
+7. Check if string ends with .com or .in using $ anchor.
+8. Extract all numbers (including decimals) from text.
+9. Split string by multiple delimiters (comma, semicolon, space).
+10. Find all 3-character words in a sentence.
 
 **Medium:**
 1. Write a regex to validate if an input string is a valid Indian vehicle number plate (e.g., MH12AB1234).
+2. Validate phone number formats: +91-XXXXXXXXXX, XXXXXXXXXX, (XXX) XXX-XXXX.
+3. Extract dates in DD/MM/YYYY format from text.
+4. Find and highlight all occurrences of a word with <mark> tags.
+5. Validate URL format (http/https, domain, optional path).
+6. Extract hashtags from social media post text.
+7. Parse log file to extract timestamp, level, and message.
+8. Find repeated words in text (e.g., "the the") using backreferences.
+9. Extract currency amounts with symbols ($, ₹, €) and decimals.
+10. Validate IP address format (IPv4: XXX.XXX.XXX.XXX).
 
 **Hard:**
 1. Write a regex to match strong passwords (at least 8 chars, 1 uppercase, 1 lowercase, 1 number, 1 special character).
+2. Extract nested HTML tags content using non-greedy matching.
+3. Parse complex JSON-like structure without JSON parser using regex.
+4. Validate and extract credit card numbers with proper Luhn check pattern.
+5. Find balanced parentheses expressions using recursive patterns.
+6. Extract multiline comments from code (/* ... */).
+7. Parse CSV with quoted fields containing commas using regex.
+8. Validate international phone numbers with country codes.
+9. Extract version numbers from changelog (v1.2.3-beta.4 format).
+10. Implement custom template parser: {{variable}} and {%if condition%} blocks.

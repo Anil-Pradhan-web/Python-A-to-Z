@@ -45,11 +45,39 @@ print(adults) # Output: [18, 24, 30]
 2. **List Comprehension**: Map/Filter can usually be replaced by List Comprehensions which are more "Pythonic" (`[x**2 for x in numbers]`).
 
 ## Practice Questions
+
 **Easy:**
 1. Write a lambda function that multiples an argument `n` by 10.
+2. Create lambda to add two numbers and return sum.
+3. Write lambda to check if number is positive.
+4. Create lambda that returns square of a number.
+5. Use lambda with map() to double all elements in list.
+6. Create lambda to concatenate two strings.
+7. Write lambda that returns last character of string.
+8. Use lambda with filter() to get numbers > 10 from list.
+9. Create lambda to find maximum of two numbers.
+10. Write lambda that converts string to uppercase.
 
 **Medium:**
 1. Given a list of numbers, use `filter()` and `lambda` to extract only the even numbers.
+2. Use map() with lambda to convert list of temperatures from Celsius to Fahrenheit.
+3. Sort list of strings by their length using sorted() with lambda key.
+4. Filter out None values from list using filter() and lambda.
+5. Use reduce() with lambda to find product of all list elements.
+6. Sort dictionary items by value using sorted() and lambda.
+7. Use map() with lambda to extract first letter of each word in list.
+8. Filter palindrome strings from list using filter() and lambda.
+9. Chain multiple lambdas: filter odd numbers, then square them using map().
+10. Use lambda with sorted() to sort list of dicts by specific key.
 
 **Hard:**
 1. Sort a list of tuples `[(1, 'B'), (3, 'A'), (2, 'C')]` primarily based on the second item in each tuple (string character) using `sorted()` and `lambda`.
+2. Implement custom sorting: sort by multiple criteria using lambda tuple key.
+3. Create higher-order function that takes lambda as parameter and applies conditionally.
+4. Use lambda with itertools.groupby() to group consecutive identical elements.
+5. Implement quicksort one-liner using list comprehension and lambda for pivot.
+6. Create lambda that works as closure capturing outer variable.
+7. Use functools.partial with lambda to create specialized functions.
+8. Implement currying using nested lambda functions.
+9. Create dynamic validator using lambda expressions for form fields.
+10. Build pipeline of transformations using reduce() with lambda composition.
